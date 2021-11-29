@@ -1,0 +1,44 @@
+#qna{
+  display: none;
+}
+
+.qBox{
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 20px;
+  font-size : 24px;
+  width: 80%;
+}
+.answerList{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  border: 0px;
+  font-size: 20px;
+
+}
+
+.answerList:hover, .answerList:focus{
+  background-color: pink;
+  color: whitesmoke;
+}
+
+.status{
+  height: 20px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.statusBar{
+  height: 100%;
+  border-radius: 20px;
+  background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffa84c+24,ff7b0d+70 */
+background: #ffa84c; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffa84c 24%, #ff7b0d 70%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffa84c 24%,#ff7b0d 70%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffa84c 24%,#ff7b0d 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+;
+}
